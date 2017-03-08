@@ -7,7 +7,6 @@ int wczytaj_baze(char nazwa_pliku[])
 {
     FILE *f=fopen(nazwa_pliku,"r");
 	if (f==NULL) return -1;
-	wyczysc();
     char pom;
     int i=0, poziom=1;
     liczba_wierszy_bazy=1;
